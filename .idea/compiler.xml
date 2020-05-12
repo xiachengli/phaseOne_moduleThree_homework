@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="custom_springMVC" />
+        <module name="sss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="2mvc" target="11" />
       <module name="custom_mvc" target="1.5" />
       <module name="custom_springMVC" target="11" />
+      <module name="sss" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
